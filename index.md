@@ -9,7 +9,7 @@ Hello Welcome to my Blog. Cakes can hold a special place in our hearts and on ou
 <ul>
     {% for post in site.posts%}
     <li>
-        <a href="/blog/{{ post.url }}">{{ post.title }}</a>
+        <a href="/blog{{ post.url }}">{{ post.title }}</a>
     </li>
      {% endfor %}
 <ul>
